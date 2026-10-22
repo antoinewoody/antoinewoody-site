@@ -1,0 +1,1 @@
+{"name":"antoinewoody","private":true,"packageManager":"pnpm@10.18.3","scripts":{"dev":"turbo dev","build":"turbo build","typecheck":"turbo typecheck"},"devDependencies":{"turbo":"latest","typescript":"latest"}}
