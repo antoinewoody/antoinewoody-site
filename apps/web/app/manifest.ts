@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function manifest():MetadataRoute.Manifest{return {name:"Antoine Woody",short_name:"Antoine Woody",description:"Private Human Performance Advisory",start_url:"/",display:"standalone",background_color:"#faf7f1",theme_color:"#2f3b30"}}
