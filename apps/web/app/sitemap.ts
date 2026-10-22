@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";import {site} from "@/lib/site";export default function sitemap():MetadataRoute.Sitemap{const paths=["","/about","/listen","/advisory","/book"];return paths.map(path=>({url:`${site.url}${path}`,lastModified:new Date(),changeFrequency:"weekly",priority:path===""?1:path==="/book"?0.9:0.75}))}
