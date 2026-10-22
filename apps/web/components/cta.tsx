@@ -1,0 +1,2 @@
+import {site} from "@/lib/site";
+export function BookingCta({className="button primary",label="Book a private conversation"}:{className?:string;label?:string}){return <a className={className} href={site.bookingUrl} target="_blank" rel="noreferrer">{label}<span aria-hidden> ↗</span></a>}
