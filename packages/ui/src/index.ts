@@ -1,0 +1,1 @@
+export const brand={ink:"#1e211b",forest:"#2f3b30",sage:"#788273",clay:"#a56f4e",sand:"#d8c5aa",linen:"#f1eadf",cream:"#faf7f1"} as const;
