@@ -28,3 +28,5 @@ The website is designed for Vercel. Set the project Root Directory to `apps/web`
 
 Primary booking URL:
 https://cal.com/antoine-woody-pvlqfo/book-a-private-conversation
+
+Deployment trigger: 2026-10-22
