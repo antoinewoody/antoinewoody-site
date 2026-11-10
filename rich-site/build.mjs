@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
-const SOURCE="https://antoine-woody-csqcdl7br-antoinejwoody-gmailcoms-projects.vercel.app";
+const SOURCE="https://antoine-woody-preview.vercel.app";
 const OUT="dist";
 
 const pages=[
