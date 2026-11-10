@@ -1,1 +1,31 @@
-import type {Metadata} from "next";import {BookingCta} from "@/components/cta";export const metadata:Metadata={title:"About",description:"Antoine Woody's philosophy and approach to private human performance advisory."};export default function Page(){return <><section className="shell pageHero"><p className="eyebrow">ABOUT ANTOINE</p><h1>The person behind the performance matters.</h1><p>Antoine Woody works across emotional well-being, personal development, lifestyle strategy, communication, breath, sound-based relaxation, and whole-person performance.</p></section><section className="band"><div className="shell article"><h2>Why I do this work</h2><p>As a child, I carried a persistent belief that heaven could be experienced on Earth. Over time that question became less about finding a perfect place and more about understanding how people create an inner and outer life that feels honest, meaningful, connected, and alive.</p><p>My own transformation required questioning inherited beliefs, separating worth from possessions and approval, changing my environment, strengthening my relationship with my body, and learning how to experience emotion without surrendering every decision to it.</p><h2>What that means for clients</h2><p>I do not approach people as problems to fix. I listen for the person beneath the role, reflect what may be difficult to see alone, challenge patterns that no longer serve the direction they want to move, and help turn insight into action.</p><BookingCta/></div></section></>}
+import type {Metadata} from "next";
+import {BookingCta} from "@/components/cta";
+
+export const metadata:Metadata={
+  title:"About",
+  description:"Antoine Woody's philosophy and approach to private human performance advisory."
+};
+
+export default function Page(){
+  return <>
+    <section className="shell pageHero">
+      <p className="eyebrow">ABOUT ANTOINE</p>
+      <h1>The person behind the performance matters.</h1>
+      <p>Antoine Woody works across human performance, emotional well-being, communication, breath, sound, and whole-person development.</p>
+    </section>
+
+    <section className="band">
+      <div className="shell article">
+        <h2>Built through experience.</h2>
+        <p>His work grew from personal transformation: questioning inherited beliefs, changing environments, learning the body, and building a life around clarity rather than approval.</p>
+
+        <h2>Across cultures and contexts.</h2>
+        <p>His work has taken him across the United States, Kenya, Saudi Arabia, Qatar, the UAE, and beyond—working with people who carry meaningful responsibility.</p>
+
+        <h2>Human first.</h2>
+        <p>Deep listening. Direct reflection. Practical action. The goal is not dependence. It is greater capacity.</p>
+        <BookingCta/>
+      </div>
+    </section>
+  </>;
+}

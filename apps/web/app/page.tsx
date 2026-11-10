@@ -4,7 +4,7 @@ import {JsonLd} from "@/components/json-ld";
 import {site} from "@/lib/site";
 
 export default function Home(){
-  const service={"@context":"https://schema.org","@type":"Service",name:"Private Human Performance Advisory",provider:{"@type":"Person",name:"Antoine Woody",url:site.url},areaServed:"Worldwide",description:site.description,url:`${site.url}/advisory`};
+  const service={"@context":"https://schema.org","@type":"Service",name:"Private Human Performance Advisory",provider:{"@type":"Person",name:"Antoine Woody",url:site.url},areaServed:"Worldwide",description:site.description,url:site.url + "/advisory"};
   return <>
     <JsonLd data={service}/>
     <section className="hero shell">
@@ -36,8 +36,7 @@ export default function Home(){
         <h2>Strengthen the person carrying the performance.</h2>
       </div>
       <div className="editorialBody">
-        <p>A confidential partnership for founders, executives, entrepreneurs, creatives, and high performers.</p>
-        <p>We work with the real decisions, conversations, patterns, and pressures shaping your life now.</p>
+        <p>A confidential partnership for the decisions, conversations, and patterns shaping your life now.</p>
         <Link className="textLink" href="/advisory">Private Advisory →</Link>
       </div>
     </section>
@@ -49,7 +48,7 @@ export default function Home(){
           <h2>See clearly. Move intentionally.</h2>
         </div>
         <div className="methodWords" aria-label="LISTEN Method">
-          <span>Listen</span><span>Identify</span><span>Shift</span><span>Train</span><span>Embody</span><span>Navigate</span>
+          <span>Learn</span><span>Identify</span><span>Shift</span><span>Train</span><span>Embody</span><span>Navigate</span>
         </div>
         <Link className="textLink lightLink" href="/listen">Explore the method →</Link>
       </div>
@@ -58,8 +57,8 @@ export default function Home(){
     <section className="shell section soundFeature">
       <p className="eyebrow">SOUND + REGULATION</p>
       <h2>Regulate the nervous system. Restore clarity.</h2>
-      <p>Private and group experiences using sound, breath, and deep listening.</p>
-      <Link className="textLink" href="/about">Learn more →</Link>
+      <p>Sound, breath, and deep listening for private sessions, groups, and retreats.</p>
+      <Link className="textLink" href="/sound">Explore Sound →</Link>
     </section>
 
     <section className="shell section finalCta">

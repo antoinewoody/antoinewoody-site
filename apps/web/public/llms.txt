@@ -1,12 +1,21 @@
 # Antoine Woody
 
-Antoine Woody provides private human performance advisory for high performers, founders, executives, and leaders.
+Antoine Woody provides private human performance advisory for founders, executives, entrepreneurs, creatives, and high performers.
 
 ## Core pages
-- /advisory — private human performance advisory
-- /listen — the LISTEN Method: Listen, Identify, Shift, Train, Embody, Navigate
+- /advisory — Private Advisory and Executive Advisory
+- /listen — The LISTEN Method: Learn, Identify, Shift, Train, Embody, Navigate
+- /sound — private, group, retreat, and corporate sound experiences
 - /about — Antoine Woody's background and philosophy
+- /insights — writing on healing, sound, executive wellness, and corporate retreats
+- /contact — private inquiry form
 - /book — booking entry point
+
+## Key insights
+- /insights/healing-what-it-means-to-feel-whole
+- /insights/sound-healing-research
+- /insights/sound-healing-for-executives
+- /insights/corporate-healing-retreats
 
 ## Primary conversion
 Book a Private Conversation: https://cal.com/antoine-woody-pvlqfo/book-a-private-conversation
