@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 
 const allowed=new Set(["Private Advisory","Executive Advisory","Sound / Retreat / Workshop","Speaking / Collaboration","Other"]);
 const clean=(value,max)=>String(value ?? "").trim().slice(0,max);
-const emailOk=(value)=>/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(value);
+const emailOk=(value)=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
 async function storeSubmission(pathname,record){
   const token=process.env.BLOB_READ_WRITE_TOKEN?.trim();
