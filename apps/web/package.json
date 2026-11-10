@@ -8,7 +8,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@vercel/blob": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
